@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git url:'https://github.com/bcreddydevops/chinna-app.git',branch:'main'
+                git url:'https://github.com/firstcloud8523/msn-web-app.git',branch:'main'
             }
         }
         
